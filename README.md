@@ -38,5 +38,28 @@ Python package: [urllib](https://docs.python.org/3/library/urllib.html)
 R
 
 # Instruction
+Use Python's [IDLE](https://docs.python.org/3.6/library/idle.html) to open the file Main.
 
+Enter the University name, here i enter 'UIUC' (Can be blank).
 
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/EnterUniversity.png?raw=true)
+
+Enter the Program name 'Computer Science'(Can be blank).
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/EnterProgram.png?raw=true)
+
+**_they cannot be both blank, enter something_**
+
+Then a notice will pop up, confirming your entries (the spaces in your entries are replaced by +).
+
+Enter 'y' if you want to proceed. If you enter 'n' the program will go back and ask you to enter the University name.
+
+After the process is finished, the program will ask if you want to rename the data file, enter 'y' then you have a chance to rename the file, in this case, i name it as 'UIUC_CS' You do not need to add the suffix '.csv', it has been taken care of by the program.
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/RenameFile.png?raw=true)
+
+Now you will have your data, which looks like this:
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/Example.png?raw=true)
+
+The example file has been uploaded and can be accessed [here](https://github.com/Zha0rong/Coffee-Maker/blob/master/Example/UIUC_CS.csv)
