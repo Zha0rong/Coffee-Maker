@@ -9,9 +9,19 @@ The most annoying thing during the application season, is **_the waiting game_**
 All has been done and everything has benn submitted, which means that everything is out of your hand now: you are on your own, being helpless in your apartment, waiting for a group of people who can only know you through several papers to decide whether you are admitted to the program or you are **_just not good enough_** (another evil face here).
 This kind of helplessness is created by the lack of information: the people in admission board do not reply your email, and will not tell you anything about your application until they make up their mind. To relief the feeling of helplessness, the first thing people do based on their instinct is to search for more information: people start to google about how admission board work, when will the decision be sent and how many people are applying to the same program. This is where you find this:
 **_The GradCafe!_**
+
+
 ![alt text](https://thegradcafe.com/images/logo.png)
+
+
 Or to be more specific:
+
 **_The Result section in GradCafe_**
+
+
 ![alt text](http://user-image.logdown.io/user/5474/blog/5498/post/255721/v7mdmiB2Slm6ChEmzMGD_blog-gradcafe.png)
+
+
+
 So now you are having the almost first hand information of how are people applying to the same program as you do are doing during the waiting: some of them may have been interviewed, accepted or rejected. These information may relieve your anxiety, but most of the time, they just brought it to the next level.
 As you may have noticed, the GradCafe did a great job collecting these crown jewel data. However, they did not really organize and analyze it to provide information which escalate your blood pressure, cortisol level and daily calories intake; when do most people got the response from the board? What is the rate of acceptance each year for this program? etc etc.
