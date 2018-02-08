@@ -42,8 +42,9 @@ def Scraper(school,program):
         for tr in table_rows:
             td = tr.find_all('td')
             row = [i.text for i in td]
-            a.write(str(row))
-            data.writerow(row)
+            row_UTF =[x.encode('utf-8') for x in row]
+            a.write(str(row_UTF))
+            data.writerow(row_UTF)
         a.close()
     else:
         for i in range(1, page_number+1):
@@ -55,6 +56,7 @@ def Scraper(school,program):
             for tr in table_rows:
                 td = tr.find_all('td')
                 row = [i.text for i in td]
-                a.write(str(row))
-                data.writerow(row)
+                row_UTF =[x.encode('utf-8') for x in row] # This is used to solve the 'UnicodeEncodeError'
+                a.write(str(row_UTF)) 
+                data.writerow(row_UTF) 
         a.close()
