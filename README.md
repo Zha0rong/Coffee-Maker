@@ -25,3 +25,14 @@ Or to be more specific:
 
 So now you are having the almost first hand information of how are people applying to the same program as you do are doing during the waiting: some of them may have been interviewed, accepted or rejected. These information may relieve your anxiety, but most of the time, they just brought it to the next level.
 As you may have noticed, the GradCafe did a great job collecting these crown jewel data. However, they did not really organize and analyze it to provide information which escalate your blood pressure, cortisol level and daily calories intake; when do most people got the response from the board? What is the rate of acceptance each year for this program? etc etc.
+So here comes my project, behold: the **_coffee maker!_** (a evil face here and also some evil laugh).
+This project allows you to input the Universities and program you are applying to, then scrap the data of these information from the GradCafe, in the end, a series of analysis will give you information such as when is the earliest response from this school, when is the latest response, when do most people get response and what percentage of applicants have been accepted.
+
+# Requirment
+Python 3.6.x 
+Python package: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+Python package: [urllib](https://docs.python.org/3/library/urllib.html)
+R
+
+
+
