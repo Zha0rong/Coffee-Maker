@@ -1,17 +1,17 @@
 from bs4 import BeautifulSoup
 import requests
-import DataGenerator,Function
+import BeanGrinder,SeasoningProcessor
 iterator = 0
 while iterator == 0:
     school_input = str(input('Please enter the school you are searching for: '))
     program_input = str(input('Please enter your program: '))
-    from Function import school_input_processor, program_input_processor,renamer
+    from SeasoningProcessor import school_input_processor, program_input_processor,renamer
     formatted_school=school_input_processor(school_input)
     formatted_program=program_input_processor(program_input)
     print(formatted_school)
     print(formatted_program)
     y_n=input("Are these the information you like to search (y/n): ")
-    from DataGenerator import Scraper, Page
+    from BeanGrinder import Scraper, Page
     if y_n == 'y':
         Results=Scraper(formatted_school, formatted_program)
         Page_number= Page(formatted_school,formatted_program)
