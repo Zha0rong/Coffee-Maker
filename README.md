@@ -30,8 +30,11 @@ This project allows you to input the Universities and program you are applying t
 
 # Requirment
 Python 3.6.x 
+
 Python package: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+
 Python package: [urllib](https://docs.python.org/3/library/urllib.html)
+
 R
 
 
