@@ -69,3 +69,12 @@ The example file has been uploaded and can be accessed [here](https://github.com
 Then you should execute the provided Rscript 'Analyzer_Graph.R' (i will add a function to 'main' which ask you if you want to execute Rscript and run it automatically). A graph called 'FrequencyAnalysis' will be exported to the script directory.
 
 ![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis.png?raw=true)
+
+More analytic graphs will be added and updated!
+
+# Update
+
+## This is a section for update.
+
+
+# Thank you! I hope everyone get offers from their dream schools!
