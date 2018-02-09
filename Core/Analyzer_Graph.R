@@ -42,3 +42,5 @@ Rust$Date=paste(Rust$day,Rust$month,' ')
 Rust$day=NULL
 Rust$month=NULL
 Rust$Date=format(Rust$Date,format='%b %d')
+Rust$converted=as.Date(Rust$Date,'%d %b')
+ggplot(Rust,aes(x=converted))+geom_histogram(binwidth=10, colour="white")+scale_x_date(labels = date_format("%d-%b"), breaks =seq(min(Rust$converted)-1, max(Rust$converted)+1, 10))+theme(axis.text.x = element_text(angle = 90, hjust = 1,size = 10))+xlab('Date')+ylab('Frequency')
