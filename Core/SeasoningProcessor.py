@@ -31,4 +31,7 @@ def program_input_processor(program):
 
 def renamer(file_name):
     filename = (str(file_name)+'.csv')
-    os.rename('Data_table.csv',filename)
+    a=csv.writer(open(filename,'w+'),delimiter = ',', quoting = csv.QUOTE_ALL)
+    with open('Data_table.csv') as old:
+        for i in old:
+            a.writerow(i)
