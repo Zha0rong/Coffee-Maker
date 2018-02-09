@@ -65,3 +65,7 @@ Now you will have your data, which looks like this:
 ![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/Example.png?raw=true)
 
 The example file has been uploaded and can be accessed [here](https://github.com/Zha0rong/Coffee-Maker/blob/master/Example/UIUC_CS.csv)
+
+Then you should execute the provided Rscript 'Analyzer_Graph.R' (i will add a function to 'main' which ask you if you want to execute Rscript and run it automatically). A graph called 'FrequencyAnalysis' will be exported to the script directory.
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis.png?raw=true)
