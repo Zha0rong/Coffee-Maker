@@ -21,6 +21,6 @@ while iterator == 0:
     namechangeyn=input("Do you wish to change the name of the data table (y/n): ")
     if namechangeyn == 'y':
         newname = input("Enter the name for the data table (no space): ")
-        result=renamer(newname)
+        renamer(newname)
     else:
         iterator = 0
