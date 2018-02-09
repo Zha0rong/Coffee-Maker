@@ -4,6 +4,8 @@
 # Created on: 2/4/18
 library('stringr')
 library('tidyr')
+library('ggplot2')
+library('scales')
 Data=read.csv('Data_table.csv')
 colnames(Data)=c('Institution','ProgramDetail','DecisionDate','Status','DataAddedDate','Note')
 Data=subset(Data,Data$Institution!='Institution')
@@ -32,4 +34,11 @@ for (i in 1:nrow(Rust)) {
   Rust[i,1]=gsub('\\,','',Rust[i,1])
 }
 rm(i)
-Final_Data$ProgramDetail=Rust
+Rust=as.matrix(cbind(Rust,Final_Data$Date))
+colnames(Rust)=c('Program','Degree','Season','Date')
+Rust=as.data.frame(Rust)
+Rust=separate(Rust,Date,c('day','month','year'),sep = ' ',remove = T)
+Rust$Date=paste(Rust$day,Rust$month,' ')
+Rust$day=NULL
+Rust$month=NULL
+Rust$Date=format(Rust$Date,format='%b %d')
