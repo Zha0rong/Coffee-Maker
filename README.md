@@ -1,4 +1,4 @@
-# Coffee-Maker: Bring your anxiety during the Graduate program application season to the next level.
+# Coffee-Maker: Help you better understand the results from the GradCafe.
 ![alt text](http://patentimages.storage.googleapis.com/US7543526B1/US07543526-20090609-D00005.png)
 # Introduction.
 During the Graduate program application season, the most annoying period of time is **when you have submitted the application** (an evil face should be presented here).
@@ -74,7 +74,23 @@ More analytic graphs will be added and updated!
 
 # Update
 
-## This is a section for update.
+## update 1.0 
+
+### changelog:
+
+Remove the picture output of 'Frequency Analysis.png'.
+
+Add output 'FrequencyAnalysis_EachYear_boxplot.png', which express the decision dates each year by boxplot.
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_EachYear_boxplot.png?raw=true)
+
+Add output 'FrequencyAnalysis_PHD_MASTER.png', which use different color to show you when PhD degree applicants and Master degree applicants get response.
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_PHD_MASTER.png?raw=true)
+
+Add output 'FrequencyAnalysis_Decision.png', which use different color to show your what kind of response are sent out in different period of time. **Warning: this may cause anxiety, nausea, depression, cardiac arrest, etc. Please view under the advice of your physicians.**
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_Decision.png?raw=true)
 
 
 # Thank you! I hope everyone get offers from their dream schools!
