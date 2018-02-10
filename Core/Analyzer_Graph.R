@@ -1,7 +1,3 @@
-# Title     : TODO
-# Objective : TODO
-# Created by: zha0rong
-# Created on: 2/4/18
 library('stringr')
 library('tidyr')
 library('ggplot2')
@@ -43,9 +39,13 @@ Rust$day=NULL
 Rust$month=NULL
 Rust$Date=format(Rust$Date,format='%b %d')
 Rust$converted=as.Date(Rust$Date,'%d %b')
+Rust$decision=Final_Data$Decision
 Rust=na.omit(Rust)
 png('FrequencyAnalysis_PHD_MASTER.png')
 ggplot(Rust,aes(x=converted,fill = Degree))+geom_histogram(binwidth=10, colour="white")+scale_x_date(labels = date_format("%d-%b"), breaks =seq(min(Rust$converted)-1, max(Rust$converted)+1, 10))+theme(axis.text.x = element_text(angle = 90, hjust = 1,size = 10))+xlab('Date')+ylab('Frequency')
+dev.off()
+png('FrequencyAnalysis_Decision.png')
+ggplot(Rust,aes(x=converted,fill = decision))+geom_histogram(binwidth=10, colour="white")+scale_x_date(labels = date_format("%d-%b"), breaks =seq(min(Rust$converted)-1, max(Rust$converted)+1, 10))+theme(axis.text.x = element_text(angle = 90, hjust = 1,size = 10))+xlab('Date')+ylab('Frequency')
 dev.off()
 png('FrequencyAnalysis_EachYear_boxplot.png')
 ggplot(Rust,aes(x = year,y=converted,fill=year))+geom_boxplot()+scale_y_date(labels = date_format("%d-%b"), breaks =seq(min(Rust$converted)-1, max(Rust$converted)+1, 10))+theme(axis.text.x = element_text(angle = 90, hjust = 1,size = 10))+xlab('Date')+ylab('Frequency')
