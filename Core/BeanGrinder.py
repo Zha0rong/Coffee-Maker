@@ -56,7 +56,7 @@ def Scraper(school,program):
             for tr in table_rows:
                 td = tr.find_all('td')
                 row = [i.text for i in td]
-                row_UTF =[x.encode('ascii',ignore).decode('ascii') for x in row] # This is used to solve the 'UnicodeEncodeError'
+                row_UTF =[x.encode('ascii','ignore').decode('ascii') for x in row] # This is used to solve the 'UnicodeEncodeError'
                 a.write(str(row_UTF)) 
                 data.writerow(row_UTF) 
         a.close()
