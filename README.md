@@ -93,4 +93,16 @@ Add output 'FrequencyAnalysis_Decision.png', which use different color to show y
 ![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_Decision.png?raw=true)
 
 
+## Update 1.2
+
+### Changelog:
+
+Update histogram pattern.
+
+Histogram bar from different categories (PhD/Masters, Accept/Rejects, etc) will now be displayed as separate bars.
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_PHD_MASTER12.png?raw=true)
+
+![alt text](https://github.com/Zha0rong/Coffee-Maker/blob/master/Media/FrequencyAnalysis_Decision12.png?raw=true)
+
 # Thank you! I hope everyone get offers from their dream schools!
