@@ -14,16 +14,17 @@ Final_Data$Status=NULL
 Final_Data$DataAddedDate=NULL
 Rust=as.matrix(Final_Data[,2])
 for (i in 1:nrow(Rust)) {
-  Rust[i,]=gsub('PhD \\(','/ PhD \\(',Rust[i,])
-  Rust[i,]=gsub('Masters \\(','/ Masters \\(',Rust[i,])
-  Rust[i,]=gsub('Other \\(','/ Other \\(',Rust[i,])
-  Rust[i,]=gsub('\\(\\?','/ \\(\\?',Rust[i,])
-  Rust[i,]=gsub('\\(F','/ \\(F',Rust[i,])
-  Rust[i,]=gsub('\\(S','/ \\(S',Rust[i,])
+  Rust[i,]=gsub('PhD \\(','\\$\\* PhD \\(',Rust[i,])
+  Rust[i,]=gsub('Masters \\(','\\$\\* Masters \\(',Rust[i,])
+  Rust[i,]=gsub('MFA \\(','\\$\\* MFA \\(',Rust[i,])
+  Rust[i,]=gsub('Other \\(','\\$\\* Other \\(',Rust[i,])
+  Rust[i,]=gsub('\\(F1','\\$\\* \\(F1',Rust[i,])
+  Rust[i,]=gsub('\\(S1','\\$\\* \\(S1',Rust[i,])
+  Rust[i,]=gsub('\\(\\?\\)','\\$\\* \\(\\?\\)',Rust[i,])
 } #Use to separate the Program and Degree#
 rm(i)
 Rust=as.data.frame(Rust)
-Rust=separate(Rust,V1,into = c('Program','Degree','Season'),sep = '/',remove = T)
+Rust=separate(Rust,V1,into = c('Program','Degree','Season'),sep = '\\$\\*',remove = T)
 for (i in 1:nrow(Rust)) {
   Rust[i,1]=gsub('\\(','',Rust[i,1])
   Rust[i,1]=gsub('\\)','',Rust[i,1])
