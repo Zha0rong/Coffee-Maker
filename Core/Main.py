@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import BeanGrinder,SeasoningProcessor
+import subprocess
+if name == '__main__': 
 iterator = 0
 while iterator == 0:
     school_input = str(input('Please enter the school you are searching for: '))
@@ -24,3 +26,4 @@ while iterator == 0:
         renamer(newname)
     else:
         iterator = 0
+
